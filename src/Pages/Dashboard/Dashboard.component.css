@@ -1,0 +1,56 @@
+.dashboard-page {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: space-around;
+  position: relative;
+}
+
+.dashboard-box {
+  height: 400px;
+  width: 500px;
+  border: 2px solid #c7c7c7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fad0d8;
+}
+
+.dashboard-title {
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: "Teko";
+  margin-bottom: 20px;
+}
+
+.my-small-business {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #c7c7c7;
+  background-color: #c7c7c7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.my-small-business:hover {
+  background-color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+.my-small-business-img {
+  height: 200px;
+  width: 200px;
+}
+
+.small-business-title {
+  font-family: "Oswald";
+  margin-top: 0px;
+}
+
+.deal-number {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}

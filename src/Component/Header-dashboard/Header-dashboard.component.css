@@ -1,0 +1,47 @@
+.logo {
+  color: #ff9eb1;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.header-dashboard {
+  font-family: Oswald;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(214, 213, 213);
+  padding: 0px 30px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-name {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header-name:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.logo-img.cart:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}

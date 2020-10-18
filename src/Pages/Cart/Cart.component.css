@@ -1,0 +1,50 @@
+.cart-page-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.cart-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 80vw;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  align-items: center;
+  font-family: "Oswald";
+}
+
+.cart-title {
+  border-bottom: 2px solid grey;
+}
+
+.button-cart {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #56a8f5;
+  border: 1px solid #56a8f5;
+  color: white;
+  padding: 7px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px solid black;
+}
+
+.button-cart:hover {
+  background-color: rgb(144, 164, 252);
+  border: 1px solid rgb(144, 164, 252);
+  cursor: pointer;
+}
+
+.stripe-button-el {
+  display: none;
+}

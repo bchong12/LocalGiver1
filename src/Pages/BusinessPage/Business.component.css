@@ -1,0 +1,46 @@
+.business-box {
+  width: 32vw;
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.business-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+.image-box {
+  height: 95%;
+  width: 95%;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.row-1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.row-2 {
+  display: flex;
+}
+
+.subtext-box {
+  margin-top: 5px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.business-page-title {
+  margin-left: 30px;
+  font-size: 22px;
+  font-family: "Verdana";
+  font-style: italic;
+  margin-bottom: 0px;
+}
